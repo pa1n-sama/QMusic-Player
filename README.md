@@ -28,3 +28,4 @@ This is a simple music player application built using Qt. The application allows
    cd build
    qmake ../Music-Player.pro -o ./build
    make
+   mv -r ../cache .
