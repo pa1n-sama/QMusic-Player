@@ -6,7 +6,7 @@ BASE_NAME=$(basename *.pro .pro)
 
 if [ ! -d "build" ]; then
     mkdir build
-    mv -r cache build
+    mv -r ../cache build
 fi
 cd build
 
