@@ -1,5 +1,16 @@
-cd main
-mkdir build && cd build
-qmake ..
+#!/bin/bash
+
+set -e 
+
+BASE_NAME=$(basename *.pro .pro)
+
+if [ ! -d "build" ]; then
+    mkdir build
+fi
+cd build
+
+
+qmake ../*.pro
+make clean
 make
-mv -r ../cache .
+./"$BASE_NAME"
