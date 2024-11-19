@@ -24,8 +24,4 @@ This is a simple music player application built using Qt. The application allows
    
    git clone https://github.com/your-username/music-player.git
    cd music-player
-   mkdir build
-   cd build
-   qmake ../Music-Player.pro -o ./build
-   make
-   mv -r ../cache .
+   bash run.sh
