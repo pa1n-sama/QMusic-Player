@@ -23,5 +23,5 @@ This is a simple music player application built using Qt. The application allows
    ```bash
    
    git clone https://github.com/your-username/music-player.git
-   cd music-player
+   cd music-player/main
    bash run.sh
